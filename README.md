@@ -40,3 +40,6 @@ Regulatory, governance and technical references supporting the framework:
 
 **[References] (REFERENCES.md)**
 
+## Status
+This is an evolving framework. Future iterations will incorporate additional test cases, practical application and feedback.
+
