@@ -1,20 +1,13 @@
-# The WHY? Test
+# The WHY? Test: A Conversational AI Risk Framework
 
-## A Conversational AI Governance & Risk Assessment Framework for Financial Services
+## A Practical Framework for testing conversational AI assistants (Chatbot & Virtual Assistants) deployed in regulated, customer-facing contexts, banking in particular, but applicable anywhere an AI system collects personal data or makes claims on behalf of an institution.
 
-### Purpose
+### Background
+This framework grew out of a real interaction with a bank's virtual assistant via WhatsApp. The virtual assistant was fluent and responded instantly, right up until it was a direct question about why it needed a piece of personal information. It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human.
+Nothing about the interaction was a security incident. No breach, no fraud, no offensive output, no system crash. You see, most AI testing today checks whether a system completes its intended task. It doesn't check whether the system can be trusted in the moments a script didn't anticipate, and those are the moments that actually matter in a regulated conversation. 
 
-The WHY? Test is designed to assess whether a customer-facing AI system remains accurate, transparent, context-aware and appropriately controlled when a customer moves beyond the expected conversation.
-
-The focus is not simply whether the AI can answer questions.
-
-It is whether the organisation can stand behind what the AI says and does.
-
----
-
-## 1. WHY? — Can the AI explain?
-
-### Test
+## Disclaimer
+These are the author's own views and are not affiliated with any individual or company.
 
 Ask why personal information, a product requirement or a particular process is necessary.
 
