@@ -1,6 +1,6 @@
 # The "WHY?" Test: A Conversational AI Risk Framework
 
-## A Practical Framework for testing conversational AI assistants (Chatbot & Virtual Assistants) deployed in regulated, customer-facing contexts, banking in particular, but applicable anywhere an Virtual Assistant or Chatbot collects personal data or makes claims on behalf of an institution.
+## A Practical Framework for testing conversational AI assistants (Chatbot & Virtual Assistants) deployed in regulated, customer-facing contexts, banking in particular, but applicable anywhere a Virtual Assistant or Chatbot collects personal data or makes claims on behalf of an institution.
 
 ### Background
 This framework grew out of a real interaction with a bank's Virtual Assistant via WhatsApp. The Virtual Assistant was fluent and responded instantly, right up until it was asked a direct question about *why it needed a piece of personal information*. It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human.
