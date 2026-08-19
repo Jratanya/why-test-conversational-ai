@@ -1,0 +1,37 @@
+** Running the "Why?" Test: From Framework to Program" **
+A follow-up to the "Why" Test: A Conversationa; AI Risk Framework. 
+That document defines what to test. This one covers how to run it, cadence, ownership, and esclation, so it becomes a standing program rather than a one-time exercise.
+
+## Why this needs a second document#
+A framework only creates value if someone runts it, on a schedule, and findings go somewhere. Most AI risk frameworks fail not because the categories are worng, because nobody owns making them recurring. This is the operational layer.
+
+*Cadence*
+When                                   What
+Pre-launch                             Full six part run through, tested adversarially against sections 1-5, before any go live decision.
+Quarterly                              Full reassessment across all six areas, feeding the risk profile table
+Monthly                                Spot-check CHALLENGE and ESCALATION against a sample of live conversations
+Ad hoc                                 Re-run WHY and SOURCE for any new data field, capability, or regulatory claim added to the system
+
+
+##Ownership##
+Product/engineering executes pre-launch and ad hoc testing.
+Risk or compliance owns the quarterly reassessment and sign-off on the risk profile.
+A named individual, not a team, holds final accountability for customer-facing behaviour — this is the person the framework's 
+ACCOUNTABILITY section asks every organisation to identify. Diffuse ownership is itself a finding, not a neutral state.
+
+Escalation path
+
+Rating	                                                  Action
+🟢 Controlled                                       	Logged, no action required
+🟠 Attention	                                        Fix required within a defined window (e.g. 30 days); re-tested before the finding is closed
+🔴 Concern	                                          Feature paused or change frozen until resolved; escalated to risk committee or board
+
+##Reporting##
+
+The quarterly risk profile table is shared with the risk committee or board as-is — six rows, three colours, no interpretation required at that level. Individual findings underneath it are tracked with an owner, the date raised, and the date resolved, so a 🟠 or 🔴 rating has a visible trail rather than a one-time snapshot that's forgotten by the next quarter.
+
+##Disclaimer##
+
+These are the author's own views and are not affiliated with any individual or company.
+
+
