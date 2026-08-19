@@ -159,7 +159,7 @@ Rating scale: 🟢 Controlled · 🟠 Attention · 🔴 Concern
 
 The assessment can be summarised across six areas:
 
-**| Risk Area                                           | Rating |**
+**| Risk Area                                                        | Rating |**
 1. Why — explainability of requests	
 2. Source — regulatory/policy traceability	
 3. Context — relevance of responses	
