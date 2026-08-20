@@ -8,8 +8,7 @@
 ---
 
 ### Introduction
-A recent interaction with a bank's Virtual Assistant(VA) via WhatsApp prompted a simple question: 
-## What happens when a customer asks "WHY?"
+A recent interaction with a bank's Virtual Assistant(VA) via WhatsApp prompted a simple question: *What happens when a customer asks "WHY?"*
 
 The Virtual Assistant was fluent, responded instantly and followed its intended customer journey. But when I questioned a request for personal information, expressed confusion and challenged the response. It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human. 
 
