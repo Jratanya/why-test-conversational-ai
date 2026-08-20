@@ -96,7 +96,7 @@ The Virtual Assistant or Chatbot makes a regulatory or policy claim that cannot 
 
 ## 3. CONTEXT — Does it understand the conversation?
 
-Testing should not focus only on whether the response is factually correct. It should also assess whether the response is correct **in context**.
+Testing should not focus only on whether the response is technically correct. It should also assess whether the response is correct **in context**.
 
 ### Example
 
