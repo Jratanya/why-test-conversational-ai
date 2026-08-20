@@ -12,7 +12,7 @@ A recent interaction with a bank's Virtual Assistant(VA) via WhatsApp prompted a
 
 The Virtual Assistant was fluent, responded instantly and followed its intended customer journey. But when I questioned a request for personal information, expressed confusion and challenged the response. It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human. 
 
-This observation was the starting point for the ##WHY?Test. The test focuses on what happens when a customer moves beyond the *expected* or *happy path* 
+This observation was the starting point for the **WHY?Test**. The test focuses on what happens when a customer moves beyond the *expected* or *happy path* 
 
 A customer may: 
 - Ask why information is required
