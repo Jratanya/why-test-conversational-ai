@@ -1,11 +1,69 @@
-# The "WHY?" Test: A Conversational AI Risk Framework
+# The "WHY?" Test
+## A Conversational AI Risk Framework ##
 
-## A Practical Framework for testing conversational AI assistants (Chatbot & Virtual Assistants(VA)) deployed in regulated, customer-facing contexts, banking in particular, but applicable anywhere a Virtual Assistant(VA) or Chatbot collects personal data or makes claims on behalf of an institution.
+## A Practical Framework for testing conversational AI assistants (Chatbot & Virtual Assistants(VA)) deployed in customer-facing environments.
 
-### Background
-This framework grew out of a real interaction with a bank's Virtual Assistant(VA) via WhatsApp. The Virtual Assistant was fluent and responded instantly, right up until it was asked a direct question about *why it needed a piece of personal information*. It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human.
+## Version 0.1| August 2026 ##
 
-You see, nothing about the interaction was a security incident, no breach, no fraud, no offensive output, no system crash. The thing is, most, if not all Virtual Assistants or Chatbots testing today checks whether a system completes its intended task. It doesn't check whether the system can be *trusted* in the *moments a script didn't anticipate*, and those are the moments that actually matter in a conversation. 
+---
+
+### Introduction
+A recent interaction with a bank's Virtual Assistant(VA) via WhatsApp prompted a simple question: 
+## What happens when a customer asks "WHY?"
+
+The Virtual Assistant was fluent, responded instantly and followed its intended customer journey. But when the customer questioned a request for personal information, expressed confusion and challenged the response, It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human. 
+
+The interaction exposed a different set of questions.
+*Could the VA explain itself?*
+*Could it understand the question actually being asked?*
+*Could it substantiate what it was saying?*
+*Did it know when to stop?*
+*And who was accountable for what the customer ultimately experienced?*
+
+This observation was the starting point for the ##WHY?## ##Test##. The test focuses on what happens when a customer moves beyond the *expected* or *happy path* 
+
+A customer may: 
+- Ask why information is required
+- Challenge an explanation
+- Express confusion
+- Question a regulatory claim
+- Refuse to provide information
+- Ask to speak to a human
+- Introduce ambiguity into the conversation
+
+These moments can reveal risks that may not appear during conventional task-based testing.
+
+**Scope and Disclaimer**
+
+The **WHY?***Test** is intended as a practical risk and assurance framework for testing Virtual Assistants or Chatbots that collect personal data, provide financial information, facilitate services or make claims on behalf of an institution. 
+
+It is intended to support **structured questioning** , **evidence gathering** and **risk assessment**, rather than replace an organization's existing legal, regulatory, compliance, audit or AI governance processes.
+
+It does **not** constitute legal, regulatory or compliance advice, and should not be relied upon as a determination of internal requirements or regulatory compliance. 
+
+
+**The Principle**
+Traditional Testing may ask:
+
+> **“Did the Virtual Assistant or Chatbot give the right answer?”**
+
+The WHY? Test asks a broader question:
+
+> **Did the Virtual Assistant or Chatbot understand the question, explain itself appropriately, stay within its authority, and know when it should stop?**
+
+A response can be factually correct and still create a governance concern if it is wrong in context. Similarly, information may be legitimate to collect for KYC or EDD purposes while the Virtual Assistant or Chatbot fails to adequately explain why it is being requested.
+
+This can occur when a technically correct response is:
+-given in response to the wrong question
+-provided at the wrong point in the customer journey
+-supported by an inaccurate, outdated or inappropriate regulatory justification; or
+-delivered without an appropriate escalation path.
+
+The purpose of the WHY? Test is not to *assume every incorrect or unexpected response as a governance failure*, but rather, where the Virtual Assistant or Chatbot **repeatedly says something incorrect**, **when the source cannot be identified**, **where ownership is unclear**, and **where appropriate monitoring or escalation  controls are absent**. 
+
+The WHY? Test therefore looks beyond the individual response to the **controls environment surrounding the Virtual Assistant or Chatbot**
+
+**The Six Test**
 
 **1. WHY- Can it explain itself?**
 Ask why a piece of personal information, a product requirement or a particular process is necessary.
@@ -155,34 +213,27 @@ Multiple teams contribute to the system, but nobody has clear accountability for
 ---
 
 # Conversational AI Risk Profile
-Rating scale: 🟢 Controlled · 🟠 Attention · 🔴 Concern
+Rating scale: 🟢 Controlled · 🟠 Attention · 🔴 Governance Concern
 
 The assessment can be summarised across six areas:
+| Risk Area          | What is being tested               |
+| ------------------ | ---------------------------------- |
+| **WHY?**           | Explainability of requests         |
+| **SOURCE**         | Regulatory and policy traceability |
+| **CONTEXT**        | Relevance of responses             |
+| **CHALLENGE**      | Handling of customer pushback      |
+| **ESCALATION**     | Recovery and human handoff         |
+| **ACCOUNTABILITY** | Clear ownership                    |
 
-**| Risk Area                                                                     | Rating |**
-1. Why — explainability of requests	
-2. Source — regulatory/policy traceability	
-3. Context — relevance of responses	
-4. Challenge — handling of pushback	
-5. Escalation — recovery and human handoff	
-6. Accountability — clear ownership
+Ratings should be supported by evidence and considered alongside **impact**, **likelihood**, **existing controls** , and **appropriate recommendation** .
 
-## The Key Question
 
-Don't stop at:
 
-> **“Did the Virtual Assistant or Chatbot give the right answer?”**
 
-Also ask:
-
-> **Did it understand the question, explain itself appropriately, stay within its authority, and know when it should stop?**
-
-A technically correct answer can still create a governance problem if it is:
-
-- given in response to the wrong question;
-- given at the wrong point in the customer journey;
-- supported by the wrong regulatory justification; or
-- delivered without an appropriate escalation path.
 
 ## Disclaimer
 These are the author's own views and are not affiliated with any individual or company.
+
+
+© 2026 Judy. All rights reserved.
+Version 0.1 | August 2026
