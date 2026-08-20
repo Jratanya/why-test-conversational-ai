@@ -27,7 +27,7 @@ These moments can reveal risks that may not appear during conventional task-base
 
 **Scope and Disclaimer**
 
-The **WHY?***Test** is intended as a practical risk and assurance framework for testing Virtual Assistants or Chatbots that collect personal data, provide financial information, facilitate services or make claims on behalf of an institution. 
+The **WHY?** **Test** is intended as a practical risk and assurance framework for testing Virtual Assistants or Chatbots that collect personal data, provide financial information, facilitate services or make claims on behalf of an institution. 
 
 It is intended to support **structured questioning** , **evidence gathering** and **risk assessment**, rather than replace an organization's existing legal, regulatory, compliance, audit or AI governance processes.
 
