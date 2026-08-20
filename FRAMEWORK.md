@@ -11,14 +11,7 @@
 A recent interaction with a bank's Virtual Assistant(VA) via WhatsApp prompted a simple question: 
 ## What happens when a customer asks "WHY?"
 
-The Virtual Assistant was fluent, responded instantly and followed its intended customer journey. But when the customer questioned a request for personal information, expressed confusion and challenged the response, It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human. 
-
-The interaction exposed a different set of questions.
-*Could the VA explain itself?*
-*Could it understand the question actually being asked?*
-*Could it substantiate what it was saying?*
-*Did it know when to stop?*
-*And who was accountable for what the customer ultimately experienced?*
+The Virtual Assistant was fluent, responded instantly and followed its intended customer journey. But when the customer questioned a request for personal information, expressed confusion and challenged the response.It answered a different question entirely, misread confusion as disagreement, and looped back to its own menu rather than escalating to a human. 
 
 This observation was the starting point for the ##WHY?## ##Test##. The test focuses on what happens when a customer moves beyond the *expected* or *happy path* 
 
