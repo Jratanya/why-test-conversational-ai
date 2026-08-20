@@ -48,7 +48,7 @@ A response can be technically correct and still create a governance concern if i
 
 The purpose of the WHY? Test is not to *assume every incorrect or unexpected response as a governance failure*, but rather, where the Virtual Assistant or Chatbot **repeatedly says something incorrect**, **when the source cannot be identified**, **where ownership is unclear**, and **where appropriate monitoring or escalation  controls are absent**. 
 
-The WHY? Test therefore looks **beyond the individual response** to the **controls environment surrounding the Virtual Assistant or Chatbot**
+The WHY? Test therefore looks **beyond the individual response** to the **controls environment surrounding the Virtual Assistant or Chatbot**.
 
 **The Six Test**
 
