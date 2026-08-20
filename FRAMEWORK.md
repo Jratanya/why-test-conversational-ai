@@ -1,7 +1,7 @@
 # The "WHY?" Test
 ## A Conversational AI Risk Framework ##
 
-## A Practical Framework for testing conversational AI assistants (Chatbot & Virtual Assistants(VA)) deployed in customer-facing environments.
+## A Practical Framework for testing conversational AI assistants (Virtual Assistants(VA) & Chatbots) deployed in customer-facing environments.
 
 ## Version 0.1| August 2026 ##
 
