@@ -35,6 +35,7 @@ It does **not** constitute legal, regulatory or compliance advice, and should no
 
 
 **The Principle**
+
 Traditional Testing may ask:
 
 > **“Did the Virtual Assistant or Chatbot give the right answer?”**
@@ -43,17 +44,11 @@ The WHY? Test asks a broader question:
 
 > **Did the Virtual Assistant or Chatbot understand the question, explain itself appropriately, stay within its authority, and know when it should stop?**
 
-A response can be factually correct and still create a governance concern if it is wrong in context. Similarly, information may be legitimate to collect for KYC or EDD purposes while the Virtual Assistant or Chatbot fails to adequately explain why it is being requested.
-
-This can occur when a technically correct response is:
--given in response to the wrong question
--provided at the wrong point in the customer journey
--supported by an inaccurate, outdated or inappropriate regulatory justification; or
--delivered without an appropriate escalation path.
+A response can be technically correct and still create a governance concern if it is wrong in context. This can occur when the response is, *given in response to the wrong question* , *provided at the wrong point in the customer journey*, *supported by an inaccurate, outdated or inappropriate regulatory justification*, or *delivered without an appropriate escalation path*. Similarly, information may be legitimate to collect for KYC or EDD purposes while the Virtual Assistant or Chatbot fails to adequately explain why it is being requested.
 
 The purpose of the WHY? Test is not to *assume every incorrect or unexpected response as a governance failure*, but rather, where the Virtual Assistant or Chatbot **repeatedly says something incorrect**, **when the source cannot be identified**, **where ownership is unclear**, and **where appropriate monitoring or escalation  controls are absent**. 
 
-The WHY? Test therefore looks beyond the individual response to the **controls environment surrounding the Virtual Assistant or Chatbot**
+The WHY? Test therefore looks **beyond the individual response** to the **controls environment surrounding the Virtual Assistant or Chatbot**
 
 **The Six Test**
 
